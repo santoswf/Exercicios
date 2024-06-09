@@ -1,0 +1,15 @@
+#titulo-principal {
+    background-color: rgba(79, 47, 5, 0.63); /* # se usa quando é usado seletor por id */
+    color: rgb(6, 33, 12);
+    text-align: center;
+}
+.topico {
+    text-align: left; /* se usa quando o seletor é por classe */
+}
+.texto {
+    text-align: justify;
+    
+}
+body {
+    background-color: rgb(188, 150, 100);
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexíveis</title>
+</head>
+<body>
+    <h1>Imagens Flexíveis</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem-m.png" type="image/png">
+        <img src="imagem-g.png" alt="A imagem flexível funciona">
+    </picture>
+    <h2>Aúdios</h2>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="sci-fi-sound-effect-designed-circuits-hum-24-200825.mp3" type="audio/mpeg">
+    </audio>
+    <h2>Vídeos</h2>
+    <video width="500px" poster="imagem-m.png" controls autoplay>   <!--widt = tamanho \ poster é a tumb \ controls é os comandos --> 
+        <source src="22913-336128301_tiny.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
